@@ -8,7 +8,7 @@ body {
 .header {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 1em 15em;
+    padding: 1em 18em 5em;
     display: flex;
     flex-direction: column;
     gap: 5em;
@@ -48,4 +48,26 @@ a {
 
 .image-container {
     background-color: grey;
+    width: 400px;
+    flex: 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    display: flex;
+    justify-content: space-between;
+    gap: 7em;
+}
+
+.signup-text {
+    flex: 1;
+}
+
+.signup-text h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
 }
