@@ -36,7 +36,7 @@ a {
     color: #e5e7eb;
 }
 
-.signup button {
+button {
     background-color: #3882f6;
     color: #f9faf8;
     padding: 8px 24px;
@@ -141,8 +141,23 @@ h1 {
     background-color: #3882f6;
     border-radius: 20px;
     padding: 3em 5em;
+    display: flex;
+    flex-direction: column;
 }
 
-.actionbox button {
-    margin-left: auto;
+.actionbox div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5e7eb
+}
+
+.actionbox div button {
+    border: 2px solid #f9faf8;
+}
+
+.actionbox div:first-child {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
 }
