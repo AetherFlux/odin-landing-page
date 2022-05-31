@@ -132,3 +132,17 @@ h1 {
     font-size: 36px;
     margin: 0;
 }
+
+.call-to-action {
+    padding: 5em 18em;
+}
+
+.actionbox {
+    background-color: #3882f6;
+    border-radius: 20px;
+    padding: 3em 5em;
+}
+
+.actionbox button {
+    margin-left: auto;
+}
