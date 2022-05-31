@@ -61,7 +61,7 @@ button {
 .image-container {
     background-color: grey;
     height: 200px;
-    flex: 0 0 500px;
+    flex: 0 1 500px;
     border-radius: 20px;
     display: flex;
     align-self: center;
@@ -72,7 +72,6 @@ button {
 .signup {
     display: flex;
     justify-content: space-between;
-    gap: 7em;
     flex-wrap: wrap;
     margin: auto;
 }
@@ -186,7 +185,7 @@ h1 {
     color: #e5e7eb;
 }
 
-@media (max-width: 1115px) {
+@media (max-width: 1004px) {
     .signup {
         justify-content: center;
         gap: 2em;
