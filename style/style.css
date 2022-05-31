@@ -66,8 +66,45 @@ a {
     flex: 1;
 }
 
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .signup-text h1 {
     font-size: 48px;
-    font-weight: bolder;
-    margin: 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+    align-items: center;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.boxes > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5em;
+    width: 200px;
+    gap: 1em;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
